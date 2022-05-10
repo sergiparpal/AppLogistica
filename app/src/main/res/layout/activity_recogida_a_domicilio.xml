@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#044aad "
-    tools:context=".data.RecogidaADomicilio">
+    tools:context=".RecogidaADomicilio">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
