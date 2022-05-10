@@ -17,14 +17,6 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="5dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="70dp"
-        android:layout_height="69dp"
-        app:srcCompat="@drawable/perfil_del_usuariopetit"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="16dp" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
