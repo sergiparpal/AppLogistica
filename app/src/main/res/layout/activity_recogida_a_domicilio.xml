@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#044aad "
-    tools:context=".Inicio">
+    tools:context=".data.RecogidaADomicilio">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -22,7 +22,7 @@
         android:layout_width="70dp"
         android:layout_height="69dp"
         app:srcCompat="@drawable/perfil_del_usuariopetit"
-        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteX="325dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
@@ -34,7 +34,7 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <TextView
-        android:id="@+id/editText_titulo"
+        android:id="@+id/editText_recogida_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Recogida a Domicilio"
@@ -45,7 +45,7 @@
         tools:layout_editor_absoluteY="114dp" />
 
     <TextView
-        android:id="@+id/textView_direccion"
+        android:id="@+id/textView_recogida_direccion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dirección"
@@ -56,7 +56,7 @@
         android:textColor="#A9A9A9" />
 
     <CheckBox
-        android:id="@+id/checkBox_direccion"
+        android:id="@+id/checkBox_recogida_misma"
         android:layout_width="322dp"
         android:layout_height="66dp"
         android:text="La dirección de recogida es la misma que la dirección del remitente"
@@ -67,21 +67,22 @@
         android:textColor="#A9A9A9" />
 
     <EditText
-        android:id="@+id/editText_codigoPostal"
+        android:id="@+id/editText_recogida_codigoPostal"
         android:layout_width="139dp"
         android:layout_height="38dp"
         android:background="@drawable/edittext_bg"
         android:ems="10"
+        android:hint="Código Postal*"
         android:inputType="number"
         android:padding="5dp"
-        android:text="Código Postal*"
         android:textColor="#A9A9A9"
         android:textSize="16sp"
         tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="296dp" />
+        tools:layout_editor_absoluteY="296dp"
+        android:textColorHint="#A9A9A9" />
 
     <Spinner
-        android:id="@+id/spinner_localidad"
+        android:id="@+id/spinner_recogida_localidad"
         android:layout_width="170dp"
         android:layout_height="38dp"
         android:background="@drawable/edittext_bg"
@@ -91,21 +92,22 @@
         android:padding="5dp" />
 
     <EditText
-        android:id="@+id/editText_Direccion"
+        android:id="@+id/editText_recogida_direccion"
         android:layout_width="321dp"
         android:layout_height="37dp"
         android:background="@drawable/edittext_bg"
         android:ems="10"
+        android:hint="Dirección*"
         android:inputType="textPersonName"
         android:padding="5dp"
-        android:text="Dirección*"
         android:textColor="#A9A9A9"
         android:textSize="16sp"
         tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="375dp" />
+        tools:layout_editor_absoluteY="375dp"
+        android:textColorHint="#A9A9A9" />
 
     <TextView
-        android:id="@+id/textView_indicacion"
+        android:id="@+id/textView_recogida_indicacion"
         android:layout_width="320dp"
         android:layout_height="46dp"
         android:text="¿Tienes alguna indicación para nuestro repartidor?"
@@ -116,9 +118,9 @@
         android:textColor="#A9A9A9" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="320dp"
-        android:layout_height="134dp"
+        android:id="@+id/editText_recogida_indicacion"
+        android:layout_width="319dp"
+        android:layout_height="101dp"
         android:background="@drawable/edittext_bg"
         android:ems="10"
         android:gravity="start|top"
@@ -126,7 +128,28 @@
         android:padding="5dp"
         android:textColor="#A9A9A9"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="527dp" />
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <Button
+        android:id="@+id/button_recogida_continuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFBD59"
+        android:text="Continuar"
+        android:textAllCaps="false"
+        android:textColor="#3C3C3C"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <TextView
+        android:id="@+id/textView_recogida_localidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localidad"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="270dp"
+        android:textColor="#A9A9A9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
