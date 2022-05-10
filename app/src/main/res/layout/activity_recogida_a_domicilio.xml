@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#044aad "
+    tools:context=".Inicio">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="407dp"
+        android:layout_height="90dp"
+        android:background="#FFBD59  "
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="70dp"
+        android:layout_height="69dp"
+        app:srcCompat="@drawable/perfil_del_usuariopetit"
+        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logopetit"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/editText_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recogida a Domicilio"
+        android:textAlignment="center"
+        android:textColor="#A9A9A9"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView_direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dirección"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="174dp"
+        android:textColor="#A9A9A9" />
+
+    <CheckBox
+        android:id="@+id/checkBox_direccion"
+        android:layout_width="322dp"
+        android:layout_height="66dp"
+        android:text="La dirección de recogida es la misma que la dirección del remitente"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="213dp"
+        android:gravity="top"
+        android:textColor="#A9A9A9" />
+
+    <EditText
+        android:id="@+id/editText_codigoPostal"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="5dp"
+        android:text="Código Postal*"
+        android:textColor="#A9A9A9"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Spinner
+        android:id="@+id/spinner_localidad"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:background="@drawable/edittext_bg"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="296dp"
+        android:textColor="#A9A9A9"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/editText_Direccion"
+        android:layout_width="321dp"
+        android:layout_height="37dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:text="Dirección*"
+        android:textColor="#A9A9A9"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/textView_indicacion"
+        android:layout_width="320dp"
+        android:layout_height="46dp"
+        android:text="¿Tienes alguna indicación para nuestro repartidor?"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="453dp"
+        android:textColor="#A9A9A9" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="320dp"
+        android:layout_height="134dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textColor="#A9A9A9"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
