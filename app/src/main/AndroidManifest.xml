@@ -13,6 +13,16 @@
             android:name=".Inicio"
             android:exported="false" />
         <activity
+            android:name=".Remitente"
+            android:exported="false" />
+        <activity
+            android:name=".RecogidaADomicilio"
+            android:exported="false" />
+        <activity
+            android:name=".Destinatario"
+            android:exported="false" />
+
+        <activity
             android:name=".ui.login.LoginActivity"
             android:exported="false"
             android:label="@string/title_activity_login" />

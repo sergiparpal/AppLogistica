@@ -91,8 +91,9 @@
         android:background="#FFBD59  "
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="5dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -105,7 +106,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content
+        android:layout_height="wrap_content"
         app:srcCompat="@drawable/casa2icon"
         tools:layout_editor_absoluteX="333dp"
         tools:layout_editor_absoluteY="16dp" />
