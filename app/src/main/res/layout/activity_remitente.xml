@@ -32,7 +32,7 @@
         tools:layout_editor_absoluteY="456dp" />
 
     <EditText
-        android:id="@+id/editText_remitente_codigoPostal"
+        android:id="@+id/editText_destinatario_codigoPostal"
         android:layout_width="134dp"
         android:layout_height="45dp"
         android:ems="10"
@@ -111,7 +111,7 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <EditText
-        android:id="@+id/editText_remitente_nombre"
+        android:id="@+id/editText_destinatario_nombre"
         android:layout_width="386dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -121,7 +121,7 @@
         tools:layout_editor_absoluteY="203dp" />
 
     <EditText
-        android:id="@+id/editText_remitente_apellido"
+        android:id="@+id/editText_destinatario_apellido"
         android:layout_width="173dp"
         android:layout_height="43dp"
         android:ems="10"
@@ -131,7 +131,7 @@
         tools:layout_editor_absoluteY="251dp" />
 
     <EditText
-        android:id="@+id/editText_remitente_2oApellido"
+        android:id="@+id/editText_destinatario_2oApellido"
         android:layout_width="173dp"
         android:layout_height="43dp"
         android:ems="10"
@@ -141,7 +141,7 @@
         tools:layout_editor_absoluteY="251dp" />
 
     <EditText
-        android:id="@+id/editText_remitente_direccion"
+        android:id="@+id/editText_destinatario_direccion"
         android:layout_width="384dp"
         android:layout_height="41dp"
         android:ems="10"
@@ -151,7 +151,7 @@
         tools:layout_editor_absoluteY="399dp" />
 
     <Spinner
-        android:id="@+id/spinner_remitente_localidad"
+        android:id="@+id/spinner_destinatario_localidad"
         android:layout_width="207dp"
         android:layout_height="42dp"
         android:spinnerMode="dropdown"

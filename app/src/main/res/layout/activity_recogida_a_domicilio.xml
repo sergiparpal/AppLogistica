@@ -153,4 +153,164 @@
         tools:layout_editor_absoluteX="195dp"
         tools:layout_editor_absoluteY="270dp" />
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="91dp"
+        android:layout_height="116dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="96dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="317dp"
+        android:layout_height="26dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="147dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="92dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="96dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="174dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="78dp"
+        android:layout_height="38dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="174dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="224dp"
+        android:layout_height="17dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="96dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="67dp"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="197dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="42dp"
+        android:layout_height="517dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="213dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="43dp"
+        android:layout_height="517dp"
+        tools:layout_editor_absoluteX="367dp"
+        tools:layout_editor_absoluteY="213dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="103dp"
+        android:layout_height="110dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="620dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="102dp"
+        android:layout_height="110dp"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="620dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="115dp"
+        android:layout_height="27dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="620dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="697dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="322dp"
+        android:layout_height="17dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="500dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="413dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="335dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="280dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="10dp"
+        android:layout_height="38dp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="296dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="109dp"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="280dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="61dp"
+        android:layout_height="6dp"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="290dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
