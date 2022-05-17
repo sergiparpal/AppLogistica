@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.23560910307898258" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout-w1240dp/activity_remitente.xml" value="0.33" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_destinatario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_envio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_plantilla_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_recogida_a_domicilio.xml" value="0.33" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_remitente.xml" value="0.33" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_Remitente.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_destinatario.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_envio.xml" value="0.264" />

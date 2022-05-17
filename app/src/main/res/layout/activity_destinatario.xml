@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#FFBD59"
         android:text="Continuar"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="634dp" />
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="639dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName13d"
