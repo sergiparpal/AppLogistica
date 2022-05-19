@@ -10,154 +10,19 @@
 
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="157dp"
-        android:layout_marginEnd="160dp"
-        android:background="@empty"
-        android:backgroundTint="#38b6ff"
-        android:text="sobre acolchado\n220x265mm"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/editTextTextPersonName5"
-        app:layout_constraintVertical_bias="0.191" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="115dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Servicio de paquetería rápida"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="¿Donde quiere realizar el envío?"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="208dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Indica el código postal del destinatario"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="248dp"
-        android:ems="10"
-        android:hint="Código Postal"
-        android:inputType="number"
-        android:textColor="#00c2cb"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="292dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="¿Qué tamaño y peso tiene?"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="332dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Selecciona uno de los tamaños aproximados"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_inicio_envio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFBD59"
         android:text="Comenzar Envío"
+        android:textAllCaps="false"
+        android:textColor="#3C3C3C"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="388dp"
-        android:layout_height="98dp"
-        android:background="#FFBD59  "
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="70dp"
-        android:layout_height="69dp"
-        android:layout_marginEnd="19dp"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar"
-        app:srcCompat="@drawable/perfil_del_usuariopetit"
-        tools:layout_editor_absoluteY="22dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/logopetit"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.452" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -168,36 +33,174 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76">
+        app:layout_constraintVertical_bias="0.754">
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/btn_inicio_caja1"
             android:layout_width="175dp"
             android:layout_height="75dp"
             android:background="@empty"
             android:backgroundTint="#38b6ff"
             android:gravity="center"
-            android:text="generic box1\n 390x280x190 mm"
+            android:text="caja genérica 1\n 390x280x190 mm"
+            android:textColor="#3C3C3C"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/btn_inicio_caja2"
             android:layout_width="175dp"
             android:layout_height="75dp"
             android:layout_marginStart="18dp"
             android:background="@empty"
             android:backgroundTint="#38b6ff"
             android:gravity="center"
-            android:text="generic box2\n 350x280x100 mm"
+            android:text="Caja genérica 2\n 350x280x100 mm"
             android:textAlignment="center"
+            android:textColor="#3C3C3C"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText_inicio_donde"
+        android:layout_width="301dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:hint="¿Donde quiere realizar el envío?"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#A9A9A9"
+        android:textColorHint="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_inicio_CPDestinatario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_inicio_CPDestinatario"
+        android:layout_width="301dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:hint="Indica el código postal del destinatario"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#A9A9A9"
+        android:textColorHint="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_inicio_CP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763" />
+
+    <EditText
+        android:id="@+id/editText_inicio_CP"
+        android:layout_width="232dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:hint="Código Postal"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#A9A9A9"
+        android:textColorHint="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="235dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="348dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:hint="¿Qué tamaño y peso tiene?"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#A9A9A9"
+        android:textColorHint="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_inicio_tamano"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <EditText
+        android:id="@+id/editText_inicio_tamano"
+        android:layout_width="347dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:text="Selecciona uno de los tamaños aproximados"
+        android:textAlignment="center"
+        android:textColor="#A9A9A9"
+        android:textColorHint="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="432dp"
+        android:layout_height="89dp"
+        android:background="#FFBD59  "
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="70dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:srcCompat="@drawable/perfil_del_usuariopetit"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logopetit"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textView_inicio_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicio de paquetería rápida"
+        app:layout_constraintBottom_toTopOf="@+id/editText_inicio_donde"
+        android:textColor="#A9A9A9"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
