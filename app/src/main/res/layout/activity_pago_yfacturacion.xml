@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#044aad "
+    android:orientation="vertical"
+    tools:context=".PagoYFacturacion">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:background="#FFBD59  "
+        android:isScrollContainer="false"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/titlescreenbillanpayment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/logopetit"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/casa2icon"
+            tools:layout_editor_absoluteX="333dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/titlescreenbillanpayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="MÉTODO DE PAGO Y FACTURACIÓN"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2BillandPay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView2BillandPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="1dp"
+        android:text="Selecciona el método de pago para el envío"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/credittarjet"
+        app:layout_constraintStart_toStartOf="@+id/titlescreenbillanpayment"
+        app:layout_constraintTop_toBottomOf="@+id/titlescreenbillanpayment" />
+
+    <RadioButton
+        android:id="@+id/credittarjet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:text="Tarjeta de débito o de crédito"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textBill"
+        app:layout_constraintStart_toStartOf="@+id/textView2BillandPay"
+        app:layout_constraintTop_toBottomOf="@+id/textView2BillandPay" />
+
+    <TextView
+        android:id="@+id/textBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:text="Facturación"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView6paybill"
+        app:layout_constraintStart_toStartOf="@+id/credittarjet"
+        app:layout_constraintTop_toBottomOf="@+id/credittarjet" />
+
+    <TextView
+        android:id="@+id/textView6paybill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="27dp"
+        android:text="¿Necesita factura para su pedido?"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/yes_no_choose"
+        app:layout_constraintStart_toStartOf="@+id/textBill"
+        app:layout_constraintTop_toBottomOf="@+id/textBill" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <RadioGroup
+        android:id="@+id/yes_no_choose"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="29dp"
+        android:checkedButton="@id/rbpayandbillSi"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout2"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/textView6paybill">
+
+        <RadioButton
+            android:id="@+id/rbpayandbillNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:checked="true"
+            android:text="No"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rbpayandbillSi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Si"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/payBillAdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:text="Dirección de Facturación"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/yes_no_choose"
+        app:layout_constraintTop_toTopOf="@+id/yes_no_choose" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="1dp"
+        android:text="La dirección de la Facturación por defecto es la del remitente"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toBottomOf="@+id/yes_no_choose" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="21dp"
+        android:textColorHint="#FFBD59"
+        app:layout_constraintBottom_toTopOf="@+id/billlocalidad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#38b6ff"
+            android:hint="Nombre y apellidos"
+            android:textColor="#00c2cb" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout2"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="61dp"
+        android:textColorHint="#FFBD59"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout3"
+        app:layout_constraintEnd_toStartOf="@+id/billlocalidad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cpbill"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:background="#38b6ff"
+            android:hint="Código Postal"
+            android:textColor="#00c2cb"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/billlocalidad"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="#38b6ff"
+        android:gravity="center"
+        android:text="Localidad"
+        android:textColor="#044aad"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="5dp"
+        android:textColorHint="#FFBD59"
+        app:layout_constraintBottom_toTopOf="@+id/textView10bill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/billlocalidad">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/altadress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#38b6ff"
+            android:hint="Dirección*"
+            android:textColor="#044aad" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView10bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Indica el documento identificativo para emitir la factura"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/containerdni"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerDni"
+        app:layout_constraintStart_toEndOf="@+id/spinnerDni"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3" />
+
+    <Spinner
+        android:id="@+id/spinnerDni"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FFBD59"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBillScreen"
+        app:layout_constraintEnd_toStartOf="@+id/containerdni"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10bill" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/containerdni"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#FFBD59"
+        app:hintTextColor="#FFBD59"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBillScreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spinnerDni"
+        app:layout_constraintTop_toBottomOf="@+id/textView10bill"
+        app:placeholderTextColor="#FFBD59"
+        app:prefixTextColor="#FFBD59">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="190dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="60dp"
+            android:background="#00c2cb"
+            android:hint="DNI/NIF/NIE" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonBillScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FFBD59"
+        android:radius="50dp"
+        android:text="CONTINUAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerdni" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

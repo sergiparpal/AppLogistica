@@ -4,22 +4,21 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.23560910307898258" />
-        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout-w1240dp/activity_remitente.xml" value="0.25" />
-        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout-w936dp/activity_login.xml" value="0.275" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout-w1240dp/activity_remitente.xml" value="0.32592592592592595" />
         <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_destinatario.xml" value="0.33" />
-        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_envio.xml" value="0.25" />
-        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_inicio.xml" value="0.22" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_envio.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_main.xml" value="0.23783783783783785" />
-        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_plantilla_header.xml" value="0.25" />
-        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_recogida_a_domicilio.xml" value="0.25" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_plantilla_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_recogida_a_domicilio.xml" value="0.33" />
         <entry key="..\:/Users/Sergi/StudioProjects/AppLogistica/app/src/main/res/layout/activity_remitente.xml" value="0.33" />
+        <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout-w1240dp/activity_remitente.xml" value="0.2" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_Remitente.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_destinatario.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_envio.xml" value="0.264" />
+        <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_envio.xml" value="0.2" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_inicio.xml" value="0.264" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_login.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_pago_yfacturacion.xml" value="0.4" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_plantillaHeader.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_plantillaHeader2.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/pepeo/AndroidStudioProjects/AppLogistica/app/src/main/res/layout/activity_plantilla_header.xml" value="0.21784420289855072" />
