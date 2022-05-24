@@ -20,147 +20,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.452" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="391dp"
-        android:layout_height="97dp"
-
-        android:gravity="center"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754">
-
-        <Button
-            android:id="@+id/btn_inicio_caja1"
-            android:layout_width="175dp"
-            android:layout_height="75dp"
-            android:background="@empty"
-            android:backgroundTint="#38b6ff"
-            android:gravity="center"
-            android:text="caja genérica 1\n 390x280x190 mm"
-            android:textColor="#3C3C3C"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btn_inicio_caja2"
-            android:layout_width="175dp"
-            android:layout_height="75dp"
-            android:layout_marginStart="18dp"
-            android:background="@empty"
-            android:backgroundTint="#38b6ff"
-            android:gravity="center"
-            android:text="Caja genérica 2\n 350x280x100 mm"
-            android:textAlignment="center"
-            android:textColor="#3C3C3C"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </LinearLayout>
-
-    <EditText
-        android:id="@+id/editText_inicio_donde"
-        android:layout_width="301dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:hint="¿Donde quiere realizar el envío?"
-        android:inputType="textPersonName"
-        android:padding="5dp"
-        android:textAlignment="center"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText_inicio_CPDestinatario"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/editText_inicio_CPDestinatario"
-        android:layout_width="301dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="240dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:hint="Indica el código postal del destinatario"
-        android:inputType="textPersonName"
-        android:padding="5dp"
-        android:textAlignment="center"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText_inicio_CP"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.763" />
-
-    <EditText
-        android:id="@+id/editText_inicio_CP"
-        android:layout_width="232dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="340dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:hint="Código Postal"
-        android:inputType="number"
-        android:padding="5dp"
-        android:textAlignment="center"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="235dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="348dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:hint="¿Qué tamaño y peso tiene?"
-        android:inputType="textPersonName"
-        android:padding="5dp"
-        android:textAlignment="center"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText_inicio_tamano"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.772" />
-
-    <EditText
-        android:id="@+id/editText_inicio_tamano"
-        android:layout_width="347dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="460dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:padding="5dp"
-        android:text="Selecciona uno de los tamaños aproximados"
-        android:textAlignment="center"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintVertical_bias="0.493" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -194,13 +57,117 @@
         android:id="@+id/textView_inicio_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:text="Servicio de paquetería rápida"
-        app:layout_constraintBottom_toTopOf="@+id/editText_inicio_donde"
         android:textColor="#A9A9A9"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:text="Indica el código postal del destinatario\n¿Donde quiere realizar el envío?"
+        android:textAlignment="center"
+        android:textColor="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="391dp"
+        android:layout_height="97dp"
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722">
+
+        <Button
+            android:id="@+id/btn_inicio_caja1"
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:background="@empty"
+            android:backgroundTint="#38b6ff"
+            android:gravity="center"
+            android:text="caja genérica 1\n 390x280x190 mm"
+            android:textColor="#3C3C3C"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_inicio_caja2"
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="18dp"
+            android:background="@empty"
+            android:backgroundTint="#38b6ff"
+            android:gravity="center"
+            android:text="Caja genérica 2\n 350x280x100 mm"
+            android:textAlignment="center"
+            android:textColor="#3C3C3C"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="344dp"
+        android:text="¿Qué tamaño y peso tiene?"
+        android:textColor="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_inicio_CP"
+        android:layout_width="232dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="272dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:hint="Código Postal"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#A9A9A9"
+        android:textColorHint="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_inicio_tamano"
+        android:layout_width="347dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="388dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:text="Selecciona uno de los tamaños aproximados"
+        android:textAlignment="center"
+        android:textColor="#A9A9A9"
+        android:textColorHint="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
