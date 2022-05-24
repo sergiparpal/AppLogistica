@@ -13,6 +13,7 @@
         android:id="@+id/btn_inicio_envio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
         android:backgroundTint="#FFBD59"
         android:text="Comenzar Envío"
         android:textAllCaps="false"
@@ -20,10 +21,7 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.493" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -57,7 +55,7 @@
         android:id="@+id/textView_inicio_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="44dp"
         android:text="Servicio de paquetería rápida"
         android:textColor="#A9A9A9"
         android:textSize="24sp"
@@ -69,7 +67,7 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="208dp"
+        android:layout_marginTop="216dp"
         android:text="Indica el código postal del destinatario\n¿Donde quiere realizar el envío?"
         android:textAlignment="center"
         android:textColor="#A9A9A9"
@@ -79,64 +77,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="391dp"
-        android:layout_height="97dp"
-
-        android:gravity="center"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722">
-
-        <Button
-            android:id="@+id/btn_inicio_caja1"
-            android:layout_width="175dp"
-            android:layout_height="75dp"
-            android:background="@empty"
-            android:backgroundTint="#38b6ff"
-            android:gravity="center"
-            android:text="caja genérica 1\n 390x280x190 mm"
-            android:textColor="#3C3C3C"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btn_inicio_caja2"
-            android:layout_width="175dp"
-            android:layout_height="75dp"
-            android:layout_marginStart="18dp"
-            android:background="@empty"
-            android:backgroundTint="#38b6ff"
-            android:gravity="center"
-            android:text="Caja genérica 2\n 350x280x100 mm"
-            android:textAlignment="center"
-            android:textColor="#3C3C3C"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="344dp"
-        android:text="¿Qué tamaño y peso tiene?"
-        android:textColor="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <EditText
         android:id="@+id/editText_inicio_CP"
         android:layout_width="232dp"
         android:layout_height="46dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="280dp"
         android:background="@drawable/edittext_bg"
         android:ems="10"
         android:hint="Código Postal"
@@ -151,23 +96,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editText_inicio_tamano"
-        android:layout_width="347dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="388dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:padding="5dp"
-        android:text="Selecciona uno de los tamaños aproximados"
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:text="¿Qué tamaño y peso tiene?\nSelecciona uno de los tamaños aproximados"
         android:textAlignment="center"
         android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_envio_tipoCaja"
+        android:layout_width="207dp"
+        android:layout_height="98dp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="452dp">
+
+        <RadioButton
+            android:id="@+id/radioButton_inicio_cajaGenerica1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="caja genérica 1\n 390x280x190 mm"
+            android:textColor="#A9A9A9"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton_inicio_cajaGenerica2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Caja genérica 2\n 350x280x100 mm"
+            android:textColor="#A9A9A9"
+            android:textSize="16sp" />
+    </RadioGroup>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
