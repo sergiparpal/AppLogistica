@@ -15,7 +15,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="411dp"
-        android:layout_height="72dp"
+        android:layout_height="70dp"
         android:background="#FFBD59  "
         android:isScrollContainer="false"
         android:minHeight="?attr/actionBarSize"
@@ -47,267 +47,194 @@
         android:id="@+id/textView_envio_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
         android:text="Tu envío"
         android:textColor="#A9A9A9"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView_envio_resumen"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="160dp" />
 
     <TextView
         android:id="@+id/textView_envio_resumen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
         android:text="Resumen y pago"
         android:textColor="#A9A9A9"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="141dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="27dp" />
 
     <TextView
         android:id="@+id/textView_envio_remitente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="192dp"
         android:text="Remitente"
         android:textColor="#A9A9A9"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.073"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView_envio_resumen" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="27dp" />
 
-    <EditText
-        android:id="@+id/editText_envio_remitDirRecog"
-        android:layout_width="362dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:hint="Dirección de recogida*"
-        android:inputType="textPersonName"
-        android:padding="5dp"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_envio_remitNombre" />
+    <TextView
+        android:id="@+id/textView_envio_dirRecogRemit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:text="Dirección de recogida"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="39dp" />
 
-    <EditText
-        android:id="@+id/editText_envio_remitNombre"
-        android:layout_width="362dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:hint="Nombre*"
-        android:inputType="textPersonName"
-        android:padding="5dp"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_envio_remitente" />
+    <TextView
+        android:id="@+id/textView_envio_nombreRemitente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:text="Nombre"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="39dp" />
 
     <TextView
         android:id="@+id/textView_envio_destinatario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="316dp"
         android:text="Destinatario"
         android:textColor="#A9A9A9"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editText_envio_remitDirRecog" />
-
-    <EditText
-        android:id="@+id/editText_envio_destNombre"
-        android:layout_width="360dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:hint="Nombre*"
-        android:inputType="textPersonName"
-        android:padding="5dp"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_envio_destinatario" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="27dp" />
 
     <TextView
-        android:id="@+id/textView_envio_tamano"
+        android:id="@+id/textView_envio_nombreDest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
-        android:text="Tamaño"
-        android:textColor="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText_envio_anchura"
-        app:layout_constraintEnd_toStartOf="@+id/textView_envio_centim"
-        app:layout_constraintTop_toBottomOf="@+id/editText_envio_destDirEnv"
-        app:layout_constraintVertical_bias="0.809" />
+        android:layout_marginTop="356dp"
+        android:text="Nombre"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="39dp" />
+
+    <TextView
+        android:id="@+id/textView_envio_dirEnvDest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="396dp"
+        android:text="Dirección de envío"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="39dp" />
 
     <TextView
         android:id="@+id/textView_envio_resumenProducto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="448dp"
         android:text="Resumen de producto"
         android:textColor="#A9A9A9"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_envio_destDirEnv" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <TextView
+        android:id="@+id/textView_envio_tipoProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="172dp"
+        android:text="Tipo"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="39dp" />
 
     <TextView
         android:id="@+id/textView_envio_tipoDeProud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="496dp"
         android:text="Tipo de producto"
         android:textColor="#A9A9A9"
         android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView_envio_resumenProducto"
-        tools:layout_editor_absoluteX="24dp" />
-
-    <EditText
-        android:id="@+id/editText_envio_anchura"
-        android:layout_width="151dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="28dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:inputType="number"
-        android:padding="5dp"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_envio_destDirEnv" />
-
-    <EditText
-        android:id="@+id/editText_envio_tipoDeProd"
-        android:layout_width="186dp"
-        android:layout_height="122dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="132dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:padding="5dp"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView_envio_anchura"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_envio_tipoDeProud"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="25dp" />
 
     <TextView
-        android:id="@+id/textView_envio_anchura"
+        android:id="@+id/textView_envio_anchuraMostrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        android:text="Anchura (lado más largo)"
-        android:textColor="#A9A9A9"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText_envio_altura"
-        app:layout_constraintTop_toBottomOf="@+id/editText_envio_anchura"
-        app:layout_constraintVertical_bias="0.583"
-        tools:layout_editor_absoluteX="229dp" />
+        android:layout_marginBottom="172dp"
+        android:text="Anchura"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="249dp" />
 
     <TextView
         android:id="@+id/textView_envio_altura"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginBottom="84dp"
         android:text="Altura"
         android:textColor="#A9A9A9"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_envio_continuar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.614"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_envio_altura"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="228dp" />
 
-    <EditText
-        android:id="@+id/editText_envio_altura"
-        android:layout_width="153dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="20dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:inputType="number"
-        android:padding="5dp"
-        android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/editText_envio_tipoDeProd"
-        tools:layout_editor_absoluteY="673dp" />
+    <TextView
+        android:id="@+id/textView_envio_alturaMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="112dp"
+        android:text="Altura"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="249dp" />
 
-    <EditText
-        android:id="@+id/editText_envio_destDirEnv"
-        android:layout_width="357dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/edittext_bg"
-        android:ems="10"
-        android:hint="Dirección de envío*"
-        android:inputType="textPersonName"
-        android:padding="5dp"
+    <TextView
+        android:id="@+id/textView_envio_anchura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="144dp"
+        android:text="Anchura (lado más largo)"
         android:textColor="#A9A9A9"
-        android:textColorHint="#A9A9A9"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_envio_destNombre" />
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="228dp" />
 
     <TextView
         android:id="@+id/textView_envio_centim"
         android:layout_width="89dp"
         android:layout_height="25dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginBottom="208dp"
         android:text="(centímetros)"
         android:textColor="#A9A9A9"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText_envio_anchura"
-        app:layout_constraintTop_toBottomOf="@+id/editText_envio_destDirEnv"
-        app:layout_constraintVertical_bias="0.235"
-        tools:layout_editor_absoluteX="292dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="297dp" />
+
+    <TextView
+        android:id="@+id/textView_envio_tamano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="212dp"
+        android:text="Tamaño"
+        android:textColor="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="228dp" />
 
     <Button
         android:id="@+id/btn_envio_continuar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#FFBD59"
         android:text="Continuar"
         android:textAllCaps="false"
         android:textColor="#3C3C3C"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_envio_tipoDeProd"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:layout_editor_absoluteX="148dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
