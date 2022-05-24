@@ -131,70 +131,29 @@
         android:id="@+id/textView_envio_resumenProducto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="448dp"
+        android:layout_marginTop="468dp"
         android:text="Resumen de producto"
         android:textColor="#A9A9A9"
         android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="25dp" />
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
-        android:id="@+id/textView_envio_tipoProd"
+        android:id="@+id/textView_envio_tamano"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="172dp"
-        android:text="Tipo"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="39dp" />
-
-    <TextView
-        android:id="@+id/textView_envio_tipoDeProud"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="496dp"
-        android:text="Tipo de producto"
+        android:layout_marginBottom="308dp"
+        android:text="Tamaño"
         android:textColor="#A9A9A9"
         android:textSize="16sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="25dp" />
-
-    <TextView
-        android:id="@+id/textView_envio_anchuraMostrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="172dp"
-        android:text="Anchura"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="249dp" />
-
-    <TextView
-        android:id="@+id/textView_envio_altura"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="84dp"
-        android:text="Altura"
-        android:textColor="#A9A9A9"
-        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="228dp" />
-
-    <TextView
-        android:id="@+id/textView_envio_alturaMostrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="112dp"
-        android:text="Altura"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="249dp" />
 
     <TextView
         android:id="@+id/textView_envio_anchura"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="144dp"
+        android:layout_marginBottom="240dp"
         android:text="Anchura (lado más largo)"
         android:textColor="#A9A9A9"
         android:textSize="14sp"
@@ -205,7 +164,7 @@
         android:id="@+id/textView_envio_centim"
         android:layout_width="89dp"
         android:layout_height="25dp"
-        android:layout_marginBottom="208dp"
+        android:layout_marginBottom="304dp"
         android:text="(centímetros)"
         android:textColor="#A9A9A9"
         android:textSize="14sp"
@@ -213,21 +172,62 @@
         tools:layout_editor_absoluteX="297dp" />
 
     <TextView
-        android:id="@+id/textView_envio_tamano"
+        android:id="@+id/textView_envio_alturaMostrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="212dp"
-        android:text="Tamaño"
+        android:layout_marginBottom="208dp"
+        android:text="Altura"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="249dp" />
+
+    <TextView
+        android:id="@+id/textView_envio_anchuraMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="268dp"
+        android:text="Anchura"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="249dp" />
+
+    <TextView
+        android:id="@+id/textView_envio_altura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180dp"
+        android:text="Altura"
         android:textColor="#A9A9A9"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="228dp" />
+
+    <TextView
+        android:id="@+id/textView_envio_tipoDeProud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="516dp"
+        android:text="Tipo de producto"
+        android:textColor="#A9A9A9"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView_envio_tipoProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="272dp"
+        android:text="Tipo"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="39dp" />
 
     <Button
         android:id="@+id/btn_envio_continuar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="76dp"
         android:backgroundTint="#FFBD59"
         android:text="Continuar"
         android:textAllCaps="false"
