@@ -27,13 +27,13 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="432dp"
-        android:layout_height="89dp"
+        android:layout_width="411dp"
+        android:layout_height="88dp"
         android:background="#FFBD59  "
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="-4dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -46,8 +46,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="78dp"
         android:layout_marginStart="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/logopetit"
